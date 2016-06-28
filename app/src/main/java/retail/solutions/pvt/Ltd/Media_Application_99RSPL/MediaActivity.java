@@ -70,6 +70,7 @@ public class MediaActivity extends Activity  {
     //develeoped by 99 retail solutions pvt. ltd.
     //all copy right reserved
     //malay dixit
+    //madhavi mishra
 
     ArrayList<Video_Data> videodata = new ArrayList<Video_Data>();
     VideoView videoView;
