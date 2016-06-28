@@ -67,6 +67,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MediaActivity extends Activity  {
 
+    //develeoped by 99 retail solutions pvt. ltd.
+
     ArrayList<Video_Data> videodata = new ArrayList<Video_Data>();
     VideoView videoView;
     TextView textView_scrolling;
