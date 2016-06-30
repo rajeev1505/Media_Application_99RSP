@@ -67,11 +67,6 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MediaActivity extends Activity  {
 
-    //develeoped by 99 retail solutions pvt. ltd.
-    //all copy right reserved
-    //malay dixit
-    //madhavi mishra
-
     ArrayList<Video_Data> videodata = new ArrayList<Video_Data>();
     VideoView videoView;
     TextView textView_scrolling;
@@ -679,14 +674,14 @@ public class MediaActivity extends Activity  {
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-              //  loading = ProgressDialog.show(MediaActivity.this, "Click Updating...", "Wait...", false, false);
+                loading = ProgressDialog.show(MediaActivity.this, "Click Updating...", "Wait...", false, false);
             }
 
             @Override
             protected void onPostExecute(String s) {
                 super.onPostExecute(s);
-                //loading.dismiss();
-                //Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
+                 loading.dismiss();
+                 Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
             }
 
             @Override
