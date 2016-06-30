@@ -632,14 +632,15 @@ public class MediaActivity extends Activity  {
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(MediaActivity.this, "Updating...", "Wait...", false, false);
+              //  loading = ProgressDialog.show(MediaActivity.this, "Updating...", "Wait...", false, false);
+              //  loading=ProgressDialog.show(false,false,false);
             }
 
             @Override
             protected void onPostExecute(String s) {
                 super.onPostExecute(s);
-                loading.dismiss();
-                Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
+               // loading.dismiss();
+                //Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -678,14 +679,14 @@ public class MediaActivity extends Activity  {
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(MediaActivity.this, "Click Updating...", "Wait...", false, false);
+              //  loading = ProgressDialog.show(MediaActivity.this, "Click Updating...", "Wait...", false, false);
             }
 
             @Override
             protected void onPostExecute(String s) {
                 super.onPostExecute(s);
-                loading.dismiss();
-                Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
+                //loading.dismiss();
+                //Toast.makeText(MediaActivity.this, s, Toast.LENGTH_LONG).show();
             }
 
             @Override
